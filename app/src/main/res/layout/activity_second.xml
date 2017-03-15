@@ -5,10 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.aula7.parcial.Second2Activity"
-    android:padding="30dp">
+    tools:context="com.example.aula7.parcial.SecondActivity">
+
+    <include layout="@layout/tool_bar"/>
 
     <LinearLayout
+        android:layout_marginTop="50dp"
+        android:padding="30dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
